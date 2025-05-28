@@ -1,4 +1,6 @@
 import streamlit as st
+
+st.set_page_config(page_title='job application', page_icon=":page_with_curl:", layout="wide")
 st.title("number")
 st.write("your fat" " and u smelly"" and u stink")
 thing=st.text_input("first number", "goon")
